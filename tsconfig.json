@@ -1,0 +1,14 @@
+{
+    "module": "es2015",    // Using AMD module code generator which works with requireJS
+    "rootDir": "./src", // Change this to your source folder
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "include": [
+        "src/**/**/**.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+  }

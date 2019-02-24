@@ -1,0 +1,31 @@
+{
+  "name": "imprimante3d",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --outdir ./dist",
+    "start:dev": "nodemon",
+    "start:prod": "node dist/index.js",
+    "deploy": ""
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/express": "^4.16.0",
+    "@types/mongoose": "^5.3.5",
+    "@types/password-hash": "^1.2.20",
+    "nodemon": "^1.18.9",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/ejs": "^2.6.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.1",
+    "password-hash": "^1.2.2"
+  }
+}
